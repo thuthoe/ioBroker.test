@@ -1,6 +1,6 @@
 ![Logo](admin/powerfox.png)
 https://www.powerfox.energy/
-## ioBroker.powerfox 0.0.1 Adapter
+## ioBroker.powerfox 1.0.0 Adapter
 DMXface is a programmable IO controller with features as follows:
  DMX OUT and DMX IN bus
  8 to 16 INports with analog to digital support for all channels

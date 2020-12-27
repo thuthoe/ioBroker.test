@@ -1,0 +1,72 @@
+{
+   "common":{
+      "name":"test,
+      "version":"1.0.0",
+      "news":{
+         "1.1.0":{
+            "en":"ioBroker adapter for Powerfox controllers",
+            "de":"ioBroker Adapter für Powerfox Controller"
+         }
+      },
+      "title":"Powerfox TU",
+      "titleLang":{
+         "en":"Powerfox ioBroker adapter",
+         "de":"Powerfox ioBroker Adapter"
+      },
+      "desc":{
+         "en":"Connects Powerfox by ACTIVE SEND protocoll",
+         "de":"Verbindet das Powerfox über das ACTICE SEND Protokoll"
+      },
+      "authors":[
+         "Author <thomas@uthmannweb.de>"
+      ],
+      "keywords":[
+         "ioBroker",
+         "Powerfox",
+         "Poweropti",
+         "Media controller",
+         "Smart Home",
+         "home automation"
+      ],
+      "license":"MIT",
+      "platform":"Javascript/Node.js",
+      "main":"main.js",
+      "icon":"powerfox.png",
+      "enabled":true,
+      "extIcon":"https://raw.githubusercontent.com/thuthoe/ioBroker.test/master/admin/powerfox.png",
+      "readme":"https://github.com/thuthoe/ioBroker.test/blob/master/README.md",
+      "loglevel":"info",
+      "mode":"daemon",
+      "type":"general",
+      "compact":true,
+      "materialize":true,
+      "materializeTab":true,
+      "adminTab":{
+         "singleton":true,
+         "name":{
+            "en":"Powerfox TU",
+            "de":"Powerfox TU"
+         },
+         "link":"www.dmxface.at",
+         "fa-icon":"info"
+      },
+      "supportCustoms":true,
+      "dependencies":[
+         {
+            "js-controller":">=1.4.2"
+         }
+      ]
+   },
+   "native":{
+      "ipaddress":"0.0.0.0",
+      "port":"6000",
+      "requesttiming":"1000",
+      "lastdmxchannel":"0"
+   },
+   "objects":[
+
+   ],
+   "instanceObjects":[
+
+   ]
+}
