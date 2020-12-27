@@ -1,6 +1,6 @@
-![Logo](admin/dmxface.png)
-http://www.dmxface.at
-## ioBroker.dmxface 1.1.0 Adapter
+![Logo](admin/powerfox.png)
+https://www.powerfox.energy/
+## ioBroker.powerfox 0.0.1 Adapter
 DMXface is a programmable IO controller with features as follows:
  DMX OUT and DMX IN bus
  8 to 16 INports with analog to digital support for all channels
@@ -45,7 +45,7 @@ Select the number of DMX channels (max. 224) to be transmitted to ioBroker and t
 Save the changes, done.
 
 ## Add adapter to ioBroker
-Add the DMXface adapter from github  https://github.com/DMXface/ioBroker.dmxface.git
+Add the DMXface adapter from github  https://github.com/thuthoe/ioBroker.test.git
 Create an instance of the adapter.
 
 ## Adapter configuration
